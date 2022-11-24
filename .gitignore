@@ -1,0 +1,11 @@
+# you want to ignore the node_modules folder when pusing this to github as this is a really heavy folder
+# and all dependencies are already listed in the package-lock.json file
+# and using 'npm install' you can install all requirements based on this file
+node_modules
+
+# this is the file where you will put the sensitive information you don't want to see punlicly available on your repo
+.env
+
+# compilation outputs
+artifacts
+cache
